@@ -23,6 +23,7 @@ This list aims to be a comprehensive hub for enthusiasts, researchers, and profe
 
 - [Magenta](https://github.com/magenta/magenta): Music and Art Generation with Machine Intelligence 🎵🖌️ (18712 stars)
 - [Audiocraft](https://github.com/facebookresearch/audiocraft): A library for audio processing and generation with deep learning, including MusicGen, a controllable music generation LM with textual and melodic conditioning 🎧 (17044 stars)
+- [heartlib](https://github.com/HeartMuLa/heartlib): Open-source music foundation models (HeartMuLa) for full songs with vocals from lyrics, style descriptions and reference audio, with the HeartCodec music tokenizer and HeartTranscriptor lyric recognition 🎤 (3808 stars)
 - [Muzic](https://github.com/microsoft/muzic): Music Understanding and Generation with Artificial Intelligence 🎶 (3765 stars)
 - [musiclm-pytorch](https://github.com/lucidrains/musiclm-pytorch): PyTorch implementation of MusicLM, Google's state-of-the-art model for music generation using attention networks 🎼 (2763 stars)
 - [riffusion](https://github.com/riffusion/riffusion): Stable diffusion for real-time music generation 🎵 (2727 stars)
@@ -109,7 +110,9 @@ This list aims to be a comprehensive hub for enthusiasts, researchers, and profe
 - [MMM: Exploring Conditional Multi-Track Music Generation with the Transformer](https://arxiv.org/abs/2008.06048): Introduces a generative system based on the Transformer architecture for generating multi-track music with greater control and handling of long-term dependencies.
 - [Deep Learning Techniques for Music Generation - A Survey](https://arxiv.org/abs/1709.01620): Analyses the different ways of using deep learning for generating musical content, covering objectives, representations, architectures, challenges, and evaluation.
 - [Mo^usai: Text-to-Music Generation with Long-Context Latent Diffusion](https://arxiv.org/abs/2301.11757): Bridges the connection between text and music with a highly efficient text-to-music generation model that can generate multiple minutes of high-quality stereo music from textual descriptions.
-
+- [HeartMuLa: A Family of Open Sourced Music Foundation Models](https://arxiv.org/abs/2601.10547): Open-source family of music foundation models: HeartCLAP for audio-text alignment, HeartTranscriptor for lyric recognition, HeartCodec (a 12.5 Hz music codec) and HeartMuLa, an LLM-based song generator conditioned on style text, lyrics and reference audio.
+- [MuLaCover: Flexible Cover Song Generation via Symbolic Tonal Control](https://arxiv.org/abs/2610.26684): NeurIPS 2026. Generates cover songs by conditioning a text-to-song model on an editable symbolic lead sheet, keeping the melody and chords of the source without frame-level alignment, so tempo and structure can change.
+  
 ## Videos
 
 - [Music Generation with Magenta: Using Machine Learning in Arts](https://www.youtube.com/watch?v=O4uBa0KMeNY) - Nov 7, 2019. Composing music is hard, and the lack of inspiration can be daunting. This video explores how machine learning can be used in music generation.
@@ -144,7 +147,8 @@ This list aims to be a comprehensive hub for enthusiasts, researchers, and profe
 - [webtoolz AI Music Studio](https://webtoolz.dev/music/studio): Free browser-based AI music generator. Create full songs with lyrics from text prompts, no signup required.
 - [Claude AI Music Skills](https://github.com/bitwize-music-studio/claude-ai-music-skills): Claude Code plugin for full-lifecycle AI music album production — lyrics, Suno style prompts, per-stem mixing, mastering, and release distribution.
 - [AudioCraft](https://audiocraft.app/) - Browser-based AI stem splitter for separating songs into vocals, drums, bass, and other instruments.
-
+- [HeartMuLa](https://heartmula.com): Web AI music generator built on the HeartMuLa models. Full songs with vocals up to 6 minutes from lyrics or a prompt, covers of uploaded audio, and MuLa Studio for editing the vocal melody, chords and lyrics as MIDI. Free daily credits.
+  
 ## Conferences & Events
 
 - [Neuton.AI Events](https://www.eventbrite.com/o/neutonai-63873737103) - Neuton.AI is hosting various events, including an ARM Tech Talk about the Next Generation Smart Toothbrush and showcasing their unique neural network framework for building compact models with optimal size and accuracy.
